@@ -12,7 +12,7 @@ const bMales = +prompt('Enter no of Type B males:');
 const females = +prompt('Enter no of females:');
 
 // Check if none of the input variables are defined and exit the program if true.
-if (aMales === undefined && bMales === undefined && females === undefined) {
+if (!aMales && !bMales && !females) {
     console.log('No input provided. Exiting...');
     alert('No input provided. Exiting...');
 } else {
